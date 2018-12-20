@@ -15,24 +15,26 @@ Before
 </h2>
 <br>
 
-![](inst/assets/README_files/figure-markdown_githubunnamed-chunk-3-1.png)
+<!--html_preserve-->
+
+<script type="application/json" data-for="htmlwidget-40bb9a7c1268414e8e5f">{"x":{"ui":"<div class=\"demo\">\n  <div class=\"container-fluid\">\n    <div style=\"margin-left: 20px; background: white\">\n      <div>\n        <div>\n          <a>Client's info<\/a>\n          <p><\/p>\n          <table  class = 'table shiny-table table- spacing-s' style = 'width:auto;'>\n<thead> <tr> <th style='text-align: left;'> Name <\/th> <th style='text-align: left;'> City <\/th> <th style='text-align: left;'> Revenue <\/th>  <\/tr> <\/thead> <tbody>\n  <tr> <td> John Smith <\/td> <td> Warsaw, Poland <\/td> <td> $210.50 <\/td> <\/tr>\n  <tr> <td> Lindsay More <\/td> <td> SF, United States <\/td> <td> $172.78 <\/td> <\/tr>\n   <\/tbody> <\/table>\n        <\/div>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>"},"evals":[],"jsHooks":[]}</script>
+<!--/html_preserve-->
 
 <h2>
 After
 </h2>
 <br>
 
-![](inst/assets/README_files/figure-markdown_githubunnamed-chunk-4-1.png)
+<!--html_preserve-->
+
+<script type="application/json" data-for="htmlwidget-82cf535aef26f6629787">{"x":{"ui":"<div class=\"demo\">\n  \n  <body style=\"min-height: 611px;\">\n    <div class=\"wrapper\">\n      <div class=\"ui raised segment\" style=\"margin-left: 20px; max-width: 350px; width: 100%\">\n        <a class=\"ui green ribbon label\">Client's info<\/a>\n        <p><\/p>\n        <!-- html table generated in R 3.5.1 by xtable 1.8-3 package -->\n<!-- Thu Dec 20 15:19:34 2018 -->\n<table class = 'ui very basic collapsing celled table'>\n<tr> <th> Name <\/th> <th> City <\/th> <th> Revenue <\/th>  <\/tr>\n  <tr> <td> John Smith <\/td> <td> Warsaw, Poland <\/td> <td> $210.50 <\/td> <\/tr>\n  <tr> <td> Lindsay More <\/td> <td> SF, United States <\/td> <td> $172.78 <\/td> <\/tr>\n   <\/table>\n\n      <\/div>\n    <\/div>\n  <\/body>\n<\/div>"},"evals":[],"jsHooks":[]}</script>
+<!--/html_preserve-->
 
 <!-- #Basic tutorial article is available on [Appsilon Data Science blog](your_future_art_link). -->
 <!-- Live demo link below -->
 <!-- TODO Analogy to http://shiny.rstudio.com/gallery/widget-gallery.html -->
 <p style="text-align: center; font-size: x-large;">
-<<<<<<< HEAD
 <a href="https://demo.appsilon.com/shiny-semantic-components/">Components live demo</a>
-=======
-<a href="https://demo.appsilondatascience.com/shiny-semantic-components/">Components live demo</a>
->>>>>>> 0c67d5f05901a7385eb7026ca20bd2bfb62df1d6
 </p>
 </div>
 Source code
@@ -54,11 +56,7 @@ To install [previous version]() you can run:
 How to use it?
 --------------
 
-<<<<<<< HEAD
 Firstly, you will have to invoke *shinyUI()* with *semanticPage()* instead of standard Shiny UI definitions like e.g. *fluidPage()*. From now on forward all components can ba annotated with [Semantic UI](http://semantic-ui.com/introduction/getting-started.html) specific CSS classes and also you will be able to use [shiny.semantic components](https://demo.appsilon.com/shiny-semantic-components/).
-=======
-Firstly, you will have to invoke *shinyUI()* with *semanticPage()* instead of standard Shiny UI definitions like e.g. *fluidPage()*. From now on forward all components can ba annotated with [Semantic UI](http://semantic-ui.com/introduction/getting-started.html) specific CSS classes and also you will be able to use [shiny.semantic components](https://demo.appsilondatascience.com/shiny-semantic-components/).
->>>>>>> 0c67d5f05901a7385eb7026ca20bd2bfb62df1d6
 
 Basic example will look like this:
 
@@ -81,8 +79,10 @@ Basic example will look like this:
 
     shinyApp(ui = ui(), server = server)
 
-and will render a simple button. ![](inst/assets/README_files/figure-markdown_githubunnamed-chunk-6-1.png)
+and will render a simple button. <!--html_preserve-->
 
+<script type="application/json" data-for="htmlwidget-4ee1957d8bff11e5265b">{"x":{"ui":"<div class=\"demo\">\n  <div class=\"ui button\">\n    <i class=\"user icon\"><\/i>\n    Icon button\n  <\/div>\n<\/div>"},"evals":[],"jsHooks":[]}</script>
+<!--/html_preserve-->
 For better understanding it's good to check [Semantic UI documentation.](http://semantic-ui.com/introduction/getting-started.html)
 
 **Note \#1**
@@ -164,7 +164,11 @@ Component examples
 
 -   **Raised segment with list**
 
-![](inst/assets/README_files/figure-markdown_githubunnamed-chunk-7-1.png) <!--html_preserve-->
+<!--html_preserve-->
+
+<script type="application/json" data-for="htmlwidget-dfe14c6b804c8963a277">{"x":{"ui":"<div class=\"demo\">\n  <div class=\"ui raised segment\">\n    <div class=\"ui relaxed divided list\">\n      <div class=\"item\">\n        <i class=\"large github middle aligned icon\"><\/i>\n        <div class=\"content\">\n          <a class=\"header\">Hello<\/a>\n          <div class=\"description\">Apples<\/div>\n        <\/div>\n      <\/div>\n      <div class=\"item\">\n        <i class=\"large github middle aligned icon\"><\/i>\n        <div class=\"content\">\n          <a class=\"header\">Hello<\/a>\n          <div class=\"description\">Pears<\/div>\n        <\/div>\n      <\/div>\n      <div class=\"item\">\n        <i class=\"large github middle aligned icon\"><\/i>\n        <div class=\"content\">\n          <a class=\"header\">Hello<\/a>\n          <div class=\"description\">Oranges<\/div>\n        <\/div>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>"},"evals":[],"jsHooks":[]}</script>
+<!--/html_preserve-->
+<!--html_preserve-->
 <pre>
 <code class="r">div(
   class = "ui raised segment",
@@ -174,7 +178,7 @@ Component examples
       "Apples", "Pears",
       "Oranges"
     ) %&gt;%
-      purrr::map(~div(
+      purrr::map(~ div(
         class = "item",
         uiicon("large github middle aligned"),
         div(
@@ -196,7 +200,11 @@ Component examples
 <!--/html_preserve-->
 -   **Interactive card**
 
-![](inst/assets/README_files/figure-markdown_githubunnamed-chunk-9-1.png) <!--html_preserve-->
+<!--html_preserve-->
+
+<script type="application/json" data-for="htmlwidget-a1f968bd09c2683cb9a7">{"x":{"ui":"<div class=\"demo\">\n  <div class=\"ui card\">\n    <div class=\"content\">\n      <div class=\"right floated meta\">14h<\/div>\n      <img class=\"ui avatar image\" src=\"http://semantic-ui.com/images/avatar/large/elliot.jpg\"/>\n      Elliot\n    <\/div>\n    <div class=\"image\">\n      <img src=\"http://semantic-ui.com/images/wireframe/image.png\"/>\n    <\/div>\n    <div class=\"content\">\n      <span class=\"right floated\">\n        <i class=\"heart outline like icon\"><\/i>\n        17 likes\n      <\/span>\n      <i class=\"comment icon\"><\/i>\n      3 comments\n    <\/div>\n    <div class=\"extra content\">\n      <div class=\"ui large transparent left icon input\">\n        <i class=\"heart ouline icon\"><\/i>\n        <input type=\"text\" placeholder=\"Add Comment...\"/>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>"},"evals":[],"jsHooks":[]}</script>
+<!--/html_preserve-->
+<!--html_preserve-->
 <pre>
 <code class="r">div(
   class = "ui card",
@@ -239,11 +247,7 @@ Component examples
 </pre>
 
 <!--/html_preserve-->
-<<<<<<< HEAD
 All components examples can be found here:<br> <https://demo.appsilon.com/shiny-semantic-components/>
-=======
-All components examples can be found here:<br> <https://demo.appsilondatascience.com/shiny-semantic-components/>
->>>>>>> 0c67d5f05901a7385eb7026ca20bd2bfb62df1d6
 
 The source code for **Components live demo** is located in **/examples** folder. To run it locally you will have to install:
 
@@ -251,15 +255,10 @@ The source code for **Components live demo** is located in **/examples** folder.
 
         devtools::install_github("Appsilon/highlighter")
 
-Check out also our dashboard examples made with **shiny.semantic** librabry:
+Check out also our dashboard examples made with **shiny.semantic** library:
 
-<<<<<<< HEAD
 1.  [Churn analytics](https://demo.appsilon.com/churn)
 2.  [Fraud detection](https://demo.appsilon.com/frauds)
-=======
-1.  [Churn analytics](https://demo.appsilondatascience.com/churn)
-2.  [Fraud detection](https://demo.appsilondatascience.com/frauds)
->>>>>>> 0c67d5f05901a7385eb7026ca20bd2bfb62df1d6
 
 How to contribute?
 ------------------
