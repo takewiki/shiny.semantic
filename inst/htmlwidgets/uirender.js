@@ -7,7 +7,7 @@ HTMLWidgets.widget({
       renderValue: function(x) {
         var tag_js = "<script src='https://d335w9rbwpvuxm.cloudfront.net/semantic.min.js'></script>"
         var tag_css = "<link href='https://d335w9rbwpvuxm.cloudfront.net/semantic.min.css' rel='stylesheet'>"
-        el.innerHTML = x.ui + tag_js + tag_css;
+        el.innerHTML = tag_js + tag_css + x.ui;
         },
 
       resize: function(width, height) {
